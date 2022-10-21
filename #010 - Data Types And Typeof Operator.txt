@@ -1,0 +1,20 @@
+/*
+    Data Types Intro
+    -String
+    -Number
+    -Array => Object
+    -Object
+    -Boolean
+*/
+
+console.log("Younes Morad");
+console.log(typeof("Younes Morad"));
+console.log(typeof 5000);
+console.log(typeof 5000.99);
+console.log(typeof [10, 15, 17]);
+console.log(typeof ["Os", "Ah", "Sa"]);
+console.log(typeof {name: 'Osama', age: 17, country: 'Egy'});
+console.log(typeof true);
+console.log(typeof false);
+console.log(typeof undefined);
+console.log(typeof null);

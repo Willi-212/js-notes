@@ -1,0 +1,13 @@
+/*
+    Identifiers
+    - Name conventions and rules
+    - Reserved words
+
+
+*/
+
+var userName;
+var username // different
+var _test1;
+var $name = "Leo";
+console.log($name)

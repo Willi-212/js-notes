@@ -1,0 +1,8 @@
+/*
+    ES6 = ECMAScript
+*/
+
+var myName = "Younes";
+
+console.log("Hello " + myName);
+console.log(`Hello ${myName}`);

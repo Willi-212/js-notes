@@ -1,0 +1,12 @@
+/*
+    Concatenation
+*/
+
+
+let a = "We love";
+let b = "Javascript";
+let c = " ";
+
+document.write(a + " " + b);
+
+console.log(a, b);

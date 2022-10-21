@@ -1,0 +1,35 @@
+/*
+    - What Is Variable ?
+    - Why We Use Variables ?
+    - Declare A Variable And Use
+    - Syntax ( Keyword | Variable Name | Assignment Opeartor | Variable Value )
+    - Variable Without Var
+    - Multiple Variables In The Same Line
+    - Id And Global Variable
+    - Loosely Typed vs Strongly Typed
+*/
+
+var user = "Younes" , age = 21;
+
+console.log("Leo");
+console.log(user);
+console.log(age);
+
+console.log(hello);
+
+hello.innerHTML = "Option";
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="hello">Hello</div>
+    <script src="app.js"></script>
+</body>
+</html>
