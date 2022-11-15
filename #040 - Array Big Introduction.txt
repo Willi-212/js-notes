@@ -1,0 +1,31 @@
+/*
+    Arrays
+    - Create Arrays [Two Methods] new Array() + []
+    - Access Arrays Elements
+    - Nested Arrays
+    - Change Arrays Elements
+    - Check For Array Array.isArray(arr);
+*/
+
+let myFriends = ["Ahmed","Younes","Leo",["Ayoub", "Ali"]];
+
+console.log(`Hello ${myFriends[0]}`);
+console.log(`Hello ${myFriends[2]}`);
+console.log(`${myFriends[1][2]}`);
+console.log(`Hello ${myFriends[3][1]}`);
+console.log(`${myFriends[3][1][2]}`);
+
+console.log(myFriends);
+myFriends[1] = "Fury";
+console.log(myFriends);
+myFriends[3] = "Jordan";
+console.log(myFriends);
+myFriends[2] = ["Leo-Fury"];
+console.log(myFriends);
+
+console.log(typeof myFriends); // It shows array as an object
+
+let str = "youness"
+// it defines the type if it is array it prints true if not it prints false 
+console.log(Array.isArray(myFriends));
+console.log(Array.isArray(str));

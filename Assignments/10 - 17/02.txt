@@ -1,0 +1,4 @@
+console.log(elzero.innerHTML); // object
+console.log(typeof elzero); // object
+
+<h3 id="elzero">object</h3>

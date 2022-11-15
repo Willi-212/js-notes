@@ -1,0 +1,35 @@
+/*
+    Comparison Operators
+    - == Equal
+    - != Not Equal
+
+    - === Identical
+    - !== Not Identical
+
+    - > Larger Than
+    - >= Larger Than Or Equal
+
+    - < Smaller Than
+    - <= Smaller Than Or Equal
+*/
+
+console.log(10 == "10");// compare value only
+console.log(-100 == "-100");// compare value only
+
+console.log(10 != "10");
+
+
+console.log(10 === "10");// compare value + type
+console.log(10 !== "10");// compare value + type
+console.log(10 !== 10);// compare value + type
+
+console.log(10 > 20);
+console.log(10 > 10);
+console.log(10 >= 10);
+
+console.log(10 < 20);
+console.log(10 < 10);
+console.log(10 <= 10);
+
+
+console.log(typeof "Younes" == typeof "Oussama");

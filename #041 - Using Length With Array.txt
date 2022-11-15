@@ -1,0 +1,14 @@
+/*
+    Array Methods
+    - Length
+*/
+
+// Index start fro 0 [0,1,2,3,4 ]
+
+let myFriends = ["Ahmed","Younes","Leo","Oscar", "Osama"];
+
+// myFriends[myFriends.length - 1] = "Fury";
+
+myFriends.length = 3;
+
+console.log(myFriends);
