@@ -1,0 +1,48 @@
+/*
+    Loop
+    -Floop on sequence
+    }
+*/
+
+let myFriends = [1,2,"Osama","Ahmed","Sayed",5,6,"Ali","Amira"];
+
+
+let namesOnly = [];
+
+
+// if (typeof myFriends[0] === 'string') {
+//     namesOnly.push(myFriends[0]);
+// }
+// if (typeof myFriends[1] === 'string') {
+//     namesOnly.push(myFriends[1]);
+// }
+// if (typeof myFriends[2] === 'string') {
+//     namesOnly.push(myFriends[2]);
+// }
+// if (typeof myFriends[3] === 'string') {
+//     namesOnly.push(myFriends[3]);
+// }
+
+console.log(myFriends);
+
+console.log(namesOnly);
+
+
+for( let i = 0 ; i < myFriends.length; i++) {
+    if (typeof myFriends[i] === 'string') {
+        namesOnly.push(myFriends[i]);
+    }
+}
+
+console.log(namesOnly);
+
+
+// console.log(myFriends[0]);
+// console.log(myFriends[1]);
+// console.log(myFriends[2]);
+// console.log(myFriends[3]);
+// console.log(myFriends[4]);
+
+// for (let i=0 ; i<myFriends.length;i++) {
+//     console.log(myFriends[i]);
+// }
