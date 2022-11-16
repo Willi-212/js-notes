@@ -1,0 +1,8 @@
+let start = 10;
+let end = 0;
+let stope = 3;
+
+
+for(let i = start ; i >= stope ; i-- ) {
+    console.log(i);
+}
